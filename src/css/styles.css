@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  height: 100vh;
+  background-image: url(/src/photos/flags.jpg);
+  background-size: cover;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapper {
+  /* position: absolute; */
+  margin-top: 10px;
+  flex-direction: column;
+  padding: 10px;
+  border: 3px solid white;
+  border-radius: 5%;
+}
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  border-radius: 5%;
+  color: white;
+  outline: none;
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#search-box:focus {
+  border-color: rgb(24, 236, 208);
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
+.country-info__box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.country-info__title {
+  padding-left: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.country-info__link {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+  padding: 5 0 5 0;
+}
+.country-info__span {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+}
+.img-info {
+  width: 70px;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  align-items: center;
+  padding: 10 0 10 0;
+}
+.country-list-link {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+  padding-left: 10px;
+}
+
+.img-block {
+  width: 60px;
+}
