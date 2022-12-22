@@ -31,7 +31,7 @@ function drawCountryBlock(countries) {
 }
 
 function onlyLetters(str) {
-  return /^[a-zA-Z\s ]+$/.test(str);
+  return /^[a-zA-Z\s -]+$/.test(str);
 }
 
 const inputHandler = () => {
